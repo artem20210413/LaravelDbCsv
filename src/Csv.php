@@ -1,12 +1,11 @@
 <?php
-namespace App;
 
 
 use Illuminate\Support\Facades\DB;
 
 class Csv
 {
-    public function setTableCsv($table, $arrName, $path, $dir, $ignoreFirstRow = true, $separator = ';'): bool
+    static function setTableCsv($table, $arrName, $path, $dir, $ignoreFirstRow = true, $separator = ';'): bool
     {
         $file = fopen("$dir/$path", 'r');
         $arr = [];

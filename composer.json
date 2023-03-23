@@ -1,5 +1,5 @@
 {
-    "name": "laravel-csv/laravel-db-csv",
+    "name": "tishchenko-artem/laravel-db-csv",
     "autoload": {
         "psr-4": {
             "Artem\\LaravelDbCsv\\": "src/"
