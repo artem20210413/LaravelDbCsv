@@ -1,0 +1,16 @@
+{
+    "name": "artem/laravel-db-csv",
+    "autoload": {
+        "psr-4": {
+            "Artem\\LaravelDbCsv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tishchenko-artem"
+        }
+    ],
+    "require": {
+        "laravel/framework": "*"
+    }
+}
